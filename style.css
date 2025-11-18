@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  background-color: #ffffff;
+  line-height: 1.4;
+}
+
+.intro-wrapper {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.intro-text {
+  width: 60%;
+  margin-left: 380px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cosmo-heading {
+  margin-top: 140px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.cosmo-section {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.cosmo-image img {
+  width: 420px;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+.cosmo-text {
+  max-width: 480px;
+  font-size: 22px;
+}
